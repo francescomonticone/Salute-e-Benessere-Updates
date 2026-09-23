@@ -88,8 +88,8 @@ The application is developed using:
 
 Versions are planned for:
 
-* 🪟 **Windows**
-* 🍎 **macOS**
+*  **Windows**
+*  **macOS**
 
 Installers are published through the application's releases.
 
@@ -129,8 +129,6 @@ v1.0.0
 Releases are automatically generated using **GitHub Actions**.
 
 ## License
-
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#licenza)
 
 This software is a proprietary project.
 
