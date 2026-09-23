@@ -107,8 +107,6 @@ Salute-e-Benessere-aziendale/
 └── package.json
 ```
 
-**svg**
-
 The application's database is created in the system's local data directory and **is not stored within the project**.
 
 ## Versioning
@@ -123,8 +121,6 @@ v0.1.1
 v0.2.0
 v1.0.0
 ```
-
-**svg**
 
 Releases are automatically generated using **GitHub Actions**.
 
