@@ -49,8 +49,6 @@
 
 ## Privacy and Security
 
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#privacy-e-sicurezza)
-
 Patient and assessment data are managed **locally on the computer** where the application is installed.
 
 The local database contains the data required for the application to operate and is not included in the project repository or in the distributed installers.
@@ -62,8 +60,6 @@ Personal data, local databases, reports, and any personal files belonging to the
 > **Important:** The application handles potentially sensitive data. It is the user's responsibility to protect the computer, operating system account, and backups containing such data.
 
 ## Updates
-
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#aggiornamenti)
 
 The application includes an integrated update management system.
 
@@ -79,8 +75,6 @@ Updates are distributed through GitHub Releases.
 
 ## Technology
 
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#tecnologia)
-
 The application is developed using:
 
 * **Tauri 2** — desktop framework
@@ -92,8 +86,6 @@ The application is developed using:
 
 ## Supported Systems
 
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#sistemi-supportati)
-
 Versions are planned for:
 
 * 🪟 **Windows**
@@ -102,8 +94,6 @@ Versions are planned for:
 Installers are published through the application's releases.
 
 ## Project Structure
-
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#struttura-del-progetto)
 
 The project is mainly organized as follows:
 
@@ -122,8 +112,6 @@ Salute-e-Benessere-aziendale/
 The application's database is created in the system's local data directory and **is not stored within the project**.
 
 ## Versioning
-
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#versioning)
 
 The project follows semantic versioning.
 
