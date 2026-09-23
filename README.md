@@ -4,8 +4,6 @@
 
 ## Features
 
-[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#funzionalità)
-
 * 👤 **Patient Management**
 
   * Patient records
