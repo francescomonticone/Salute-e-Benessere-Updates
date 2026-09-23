@@ -1,128 +1,135 @@
-# Salute-e-Benessere-Updates
+# Desktop application for the professional management of employee health and well-being assessments
 
-Applicazione desktop professionale per la gestione delle valutazioni di salute e benessere dei lavoratori.
+**Salute e Benessere Aziendale** is designed to support healthcare professionals in collecting data, processing assessments, and monitoring patient progress over time.
 
-**Salute e Benessere Aziendale** è progettata per supportare il professionista sanitario nella raccolta dei dati, nell'elaborazione delle valutazioni e nel monitoraggio dell'evoluzione del paziente nel tempo.
+## Features
 
-## Funzionalità
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#funzionalità)
 
-* 👤 **Gestione dei pazienti**
+* 👤 **Patient Management**
 
-  * Anagrafica dei pazienti
-  * Ricerca e consultazione dei pazienti
-  * Storico delle valutazioni
+  * Patient records
+  * Patient search and consultation
+  * Assessment history
+* 📋 **Assessments**
 
-* 📋 **Valutazioni**
+  * Creation of new assessments
+  * Saving assessments as drafts
+  * Completion and editing of assessments
+  * Comparison between assessments performed at different times
+* 📊 **Data Processing**
 
-  * Creazione di nuove valutazioni
-  * Salvataggio delle valutazioni come bozze
-  * Completamento e modifica delle valutazioni
-  * Confronto tra valutazioni effettuate in momenti diversi
+  * Automatic calculation of the required indicators
+  * Support for different assessment methodologies
+  * Configurable parameters and formulas
+  * Results saved together with the assessment
+* 👨‍⚕️ **Doctor Profile**
 
-* 📊 **Elaborazione dei dati**
+  * Professional information
+  * Organization and contact details
+  * Logo and signature
+  * Login credential management
+* 📄 **Reports**
 
-  * Calcolo automatico degli indicatori previsti
-  * Gestione di diverse metodologie di valutazione
-  * Parametri e formule configurabili
-  * Risultati salvati insieme alla valutazione
+  * Assessment report generation
+  * Results summary
+  * Comparison with previous assessments
+  * Automatic use of the doctor's professional information
+* 📤 **Export**
 
-* 👨‍⚕️ **Profilo del medico**
+  * Export of data and reports in the formats supported by the application
+* ⚙️ **Configuration**
 
-  * Informazioni professionali
-  * Struttura e contatti
-  * Logo e firma
-  * Gestione delle credenziali di accesso
+  * Configurable formulas
+  * Formula change history
+  * Parameters can be modified without changing the application
+* 🔄 **Automatic Updates**
 
-* 📄 **Report**
+  * Checks for new versions
+  * Downloads updates directly from the application
+  * Cryptographic verification of updates
 
-  * Generazione di report delle valutazioni
-  * Riepilogo dei risultati
-  * Confronto con valutazioni precedenti
-  * Utilizzo automatico dei dati professionali del medico
+## Privacy and Security
 
-* 📤 **Esportazione**
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#privacy-e-sicurezza)
 
-  * Esportazione dei dati e dei report nei formati supportati dall'applicazione
+Patient and assessment data are managed **locally on the computer** where the application is installed.
 
-* ⚙️ **Configurazione**
+The local database contains the data required for the application to operate and is not included in the project repository or in the distributed installers.
 
-  * Formule configurabili
-  * Storico delle modifiche alle formule
-  * Parametri modificabili senza modificare il programma
+Login credentials are not stored in plain text: passwords are stored using an **Argon2 hash**.
 
-* 🔄 **Aggiornamenti automatici**
+Personal data, local databases, reports, and any personal files belonging to the professional are not included in the source code or application releases.
 
-  * Controllo della disponibilità di nuove versioni
-  * Download dell'aggiornamento direttamente dall'applicazione
-  * Verifica crittografica degli aggiornamenti
+> **Important:** The application handles potentially sensitive data. It is the user's responsibility to protect the computer, operating system account, and backups containing such data.
 
-## Privacy e sicurezza
+## Updates
 
-I dati dei pazienti e delle valutazioni sono gestiti **localmente sul computer** sul quale è installata l'applicazione.
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#aggiornamenti)
 
-Il database locale contiene i dati necessari al funzionamento dell'applicazione e non viene incluso nel repository del progetto né negli installer distribuiti.
+The application includes an integrated update management system.
 
-Le credenziali di accesso non vengono memorizzate in chiaro: le password vengono salvate utilizzando un **hash Argon2**.
+When a new version is released, the application can:
 
-I dati personali, i database locali, i report e gli eventuali file personali del professionista non vengono inclusi nel codice sorgente o nelle release dell'applicazione.
+1. check whether an update is available;
+2. notify the user about the new version;
+3. download the update;
+4. verify its signature;
+5. install the new version.
 
-> **Importante:** l'applicazione tratta dati potenzialmente sensibili. È responsabilità dell'utilizzatore proteggere il computer, l'account del sistema operativo e i backup contenenti i dati.
+Updates are distributed through GitHub Releases.
 
-## Aggiornamenti
+## Technology
 
-L'applicazione dispone di un sistema integrato per il controllo degli aggiornamenti.
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#tecnologia)
 
-Quando viene pubblicata una nuova versione, l'applicazione può:
+The application is developed using:
 
-1. verificare la disponibilità dell'aggiornamento;
-2. informare l'utente della nuova versione;
-3. scaricare l'aggiornamento;
-4. verificarne la firma;
-5. installare la nuova versione.
+* **Tauri 2** — desktop framework
+* **React** — user interface
+* **TypeScript** — frontend development
+* **Rust** — backend and application logic
+* **SQLite** — local database
+* **Argon2** — password protection
 
-Gli aggiornamenti vengono distribuiti tramite GitHub Releases.
+## Supported Systems
 
-## Tecnologia
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#sistemi-supportati)
 
-L'applicazione è sviluppata utilizzando:
-
-* **Tauri 2** — framework desktop
-* **React** — interfaccia utente
-* **TypeScript** — sviluppo frontend
-* **Rust** — backend e logica applicativa
-* **SQLite** — database locale
-* **Argon2** — protezione delle password
-
-## Sistemi supportati
-
-Sono previste versioni per:
+Versions are planned for:
 
 * 🪟 **Windows**
 * 🍎 **macOS**
 
-Gli installer vengono pubblicati nelle release dell'applicazione.
+Installers are published through the application's releases.
 
-## Struttura del progetto
+## Project Structure
 
-Il progetto è organizzato principalmente in:
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#struttura-del-progetto)
+
+The project is mainly organized as follows:
 
 ```text
 Salute-e-Benessere-aziendale/
-├── src/                    # Frontend React
-├── src-tauri/              # Backend Rust e configurazione Tauri
+├── src/                    # React frontend
+├── src-tauri/              # Rust backend and Tauri configuration
 │   ├── src/
 │   └── tauri.conf.json
-├── public/                 # Risorse pubbliche
+├── public/                 # Public assets
 └── package.json
 ```
 
-Il database dell'applicazione viene creato nella directory dati locale del sistema e **non viene salvato all'interno del progetto**.
+**svg**
+
+The application's database is created in the system's local data directory and **is not stored within the project**.
 
 ## Versioning
 
-Il progetto utilizza il versionamento semantico.
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#versioning)
 
-Esempio:
+The project follows semantic versioning.
+
+Example:
 
 ```text
 v0.1.0
@@ -131,10 +138,14 @@ v0.2.0
 v1.0.0
 ```
 
-Le release vengono generate automaticamente tramite **GitHub Actions**.
+**svg**
 
-## Licenza
+Releases are automatically generated using **GitHub Actions**.
 
-Questo software è un progetto proprietario.
+## License
 
-Il codice sorgente non è destinato alla redistribuzione o alla modifica da parte di soggetti esterni senza autorizzazione del proprietario.
+[svg](https://github.com/francescomonticone/Salute-e-Benessere-Updates#licenza)
+
+This software is a proprietary project.
+
+The source code is not intended for redistribution or modification by third parties without authorization from the owner.
